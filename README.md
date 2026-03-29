@@ -26,7 +26,8 @@ The script only works on linux so far due to MacOS encountering issues with the 
   - [ ] ├ Add error checks  
   - [ ] └ Icon options:  
     - [ ] ├ Display client icon / regular osu icon  
-    - [ ] └ Display user profile picture  
+    - [ ] ├ Display user profile picture
+    - [ ] └ Better Osu!Lazer and Stable icons
   - [ ] ├ Color options  
   - [ ] ├ Different formats / pipes  
   - [ ] └ Add a way to change config options from within the terminal  
