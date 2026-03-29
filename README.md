@@ -19,7 +19,7 @@ A simple TUI app for displaying your ( or somebody else's ) Osu! game stats.
   (you will need to make an osu OAuth client and get it's id, secret)
 
 ## Notes
-Currently, if you wish to change your settings you have to manually edit them in the [.config file](osuStats/OsuStats.config).
+Currently, if you wish to change your settings you have to manually edit them in the [.config file](OsuStats.config).
 The script only works on linux so far due to MacOS encountering issues with the ossapi library and Windows not being able to read ANSI color codes (as far as i know).
 
 ## Future Plans:
