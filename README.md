@@ -16,7 +16,15 @@ A simple TUI app for displaying your ( or somebody else's ) Osu! game stats.
   ```pip install ossapi typing_utils```  
 4. Run the file and go through setup process:  
   ```python osuStats.py```
-  (you will need to make an osu OAuth client and get it's id, secret)
+  (you will need to make an osu OAuth client and get it's id, secret)  
+5. Set your OsuStats dir in the [startup script](osustats.sh):  
+  ```nano osustats.sh```  
+  (change the dir in the [third line](osustats.sh#L3) to your OsuStats directory)
+7. Make the startup script executable:  
+  ```chmod +x osustats.sh```  
+8. To make the script executable system-wide move the startup script to your $PATH:  
+  ```mv osustats.sh /usr/local/bin/``` (check your PATH environment variable with ```echo $PATH```)
+
 
 ## Notes
 Currently, if you wish to change your settings you have to manually edit them in the [.config file](OsuStats.config).
