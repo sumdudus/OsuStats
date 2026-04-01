@@ -22,8 +22,8 @@ A simple TUI app for displaying your ( or somebody else's ) Osu! game stats.
   (change the dir in the [third line](osustats.sh#L3) to your OsuStats directory)
 7. Make the startup script executable:  
   ```chmod +x osustats.sh```  
-8. To make the script executable system-wide move the startup script to your $PATH:  
-  ```mv osustats.sh /usr/local/bin/``` (check your PATH environment variable with ```echo $PATH```)
+8. To make the script executable system-wide create a symlink to your $PATH:  
+  ```ln -s osustats.sh /usr/local/bin/OsuStats``` (check your PATH environment variable with ```echo $PATH```)
 
 
 ## Notes
